@@ -1,5 +1,5 @@
 FROM python:3
 
-ADD hello.py /
+ADD hello.py
 
-CMD [ "python", "./hello.py" ]
+CMD [ "python", "hello.py" ]
